@@ -1,0 +1,19 @@
+<!doctype html>
+<link rel="stylesheet" href='/static/styles/style.css' />
+<title>Hello from Flask</title>
+{% if title %}
+  <h1>{{ title }}</h1>
+{% else %}
+  <h1>Hello, World!</h1>
+{% endif %}
+<div>
+  Select language
+</div>
+<p>
+  <button onclick="window.location.href='/en';">
+    English
+  </button>
+  <button onclick="window.location.href='/de';">
+    Deutsch
+  </button>
+</p>

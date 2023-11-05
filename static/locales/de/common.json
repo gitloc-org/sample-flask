@@ -1,0 +1,6 @@
+{
+  "description": {
+    "text": "<0>{{fileName}}</0> bearbeiten und zum erneuten Laden speichern. Weitere Informationen finden Sie in der <1>Dokumentation</1>.",
+    "reactLink": "Dokumentation"
+  }
+}

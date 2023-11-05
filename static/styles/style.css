@@ -1,0 +1,27 @@
+body {
+  padding: 64px;
+  text-align: center;
+  color: #fff;
+  background: #333;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  color: #fff;
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-radius: 4px;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  transition: all 0.2s;
+  cursor: pointer;
+  padding: 4px 6px;
+}
+button:hover {
+  background-color: hsla(160, 100%, 37%, 0.2);
+}
